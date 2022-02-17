@@ -1,0 +1,47 @@
+HTML
+------------------------------------------
+1)chapter 01 folder structure and document
+2)chapter 02 text formating
+3)chapter 03 multimedia 
+4)chapter 04 navigation 
+5)chapter 05 tables
+6)chapter 06 Forms 
+
+   <form> Element : 
+       Attrabute : 
+	    action  : which server or server page should send data from forms.
+		method  : 
+		    get 
+			    get method is used to get data from the server 
+				it is not secured becuase it send data through url it 
+				is visible 
+			post :
+			  post method is used to send/save data to server
+			  it is secured becuase it send data through body 
+			  
+	form controls
+-------------------------------------------------	
+         textbox
+         color
+         date time calender
+         file picker 
+         email id 
+		 text area 
+  
+        buttons 
+        radio 
+        check box 
+        submit 
+		Attributes 
+		   size 
+		   maxlength
+		   placeholder
+		   required
+        reset 
+
+           
+ selct  dropdown
+          size 
+          multiple		  
+ 
+     

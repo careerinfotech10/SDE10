@@ -1,0 +1,36 @@
+Session 01 Introduction Applications and Tech
+=================================================
+there 3 Types of Application 
+1) Standalone Application 
+    which application installed on local system , 
+	and it is available only on that system 
+	that is called standalone application 
+	for example : 
+	            word 
+				excel 
+				powerpoint 
+				tally 
+				notepad++
+				notpad 
+				
+2) Web Application 
+       it is deployed (installed)  on server and 
+	   it is accessble from anywhere using internet 
+	   this is called web application 
+	       irctc 
+		   sbi banking  netbanking 
+		   
+3) Distributed Application 
+
+     when we connect two or more webappliction then it is called 
+	 distribute applications 
+
+HTML Course Content
+Chapter 01 Folder Structure and Document Structure
+Chapter 02 Text Formating and Lists
+Chapter 03 Multimedia (images,video, audio)
+Chapter 04 Navigation 
+Chapter 05 Tables
+Chapter 06 Forms 
+Chapter 07 HTML5 element 
+
