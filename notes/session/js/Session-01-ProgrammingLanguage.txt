@@ -1,0 +1,14 @@
+Session-01-ProgrammingLanguage
+-----------------------------------
+ENGLISH             vs      Programming
+
+a to z (alphabets)         a to z 
+0 t 9                      0 to 9
++-/ sp                     +-/ (operator)
+word                        variable
+sentence                    statement
+paragraph                   function 
+page                        class
+Lesson                      module/package/namespace
+book                        sofware
+----------------------------------------------
