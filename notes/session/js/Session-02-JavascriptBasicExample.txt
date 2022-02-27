@@ -1,0 +1,9 @@
+Session-02-Javascript basic example and env setup
+----------------------------------
+what is purpose of html
+what is purpose of css
+what is purpose of javascript
+
+1)browser  or 
+2)node tools
+
