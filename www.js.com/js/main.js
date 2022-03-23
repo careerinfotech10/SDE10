@@ -56,3 +56,12 @@ function hotelMenu(){
 
     }
 }
+
+function multiple(){
+
+    mark=document.getElementById('mark').value;
+
+    if(mark<100 && mark>90){
+        
+    }
+}
