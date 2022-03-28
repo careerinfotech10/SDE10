@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>see output here</h1>
+    <p id="display"></p>
+
+    <script>
+        function printInHtmlPage(data){
+                     document.getElementById('display').innerHTML=data;
+        }
+
+        function printInConsole(x){
+                      console.log(x);
+        }
+        function calculator(num1,num2,myCallback){
+            
+            mult=num1*num2;
+              myCallback(mult);
+
+        }
+
+        calculator(7,9,printInHtmlPage);
+    </script>
+
+</body>
+</html>

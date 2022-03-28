@@ -1,0 +1,89 @@
+logging
+---------------------------------
+1)what is logging?
+   
+  Logging is process to store execution details
+2)why we need logging
+   when our system  deployed on production(server) we cant debug , we need information 
+   of execution. 
+3)Logger ,Layout and appeander 
+
+     
+    
+	i)Layout - layout will decide format of log msg 
+	         a)simplelayout
+			 b)patternlayout
+	ii)appeander - appeander will decide for storing log messge
+
+             a) ConsoleAppeander
+             b) FileAppeander
+             c) JDBCAppeander
+			 d) MailAppeander
+
+   iii)logger 
+         logback
+         log4j	
+		 
+			 
+	
+
+4)log levels - logging have some levels which level should show 
+
+trace > debug > info > warn > errror > fatal > off 
+
+
+    
+5)logging methods
+
+https://examples.javacodegeeks.com/enterprise-java/logback/logback-rollingfileappender-example/
+
+https://mail.codejava.net/frameworks/spring-boot/logback-rolling-files-example
+
+1.Rolling FileAppender
+
+	3.1 TimeBasedRollingPolicy Example
+	3.2 FixedWindowRollingPolicy Example
+
+	3.3 Size and Time Based Rolling Example
+
+
+logging.file.name=MyApp.log
+logging.pattern.rolling-file-name=MyApp-%d{yyyy-MM-dd}.%i.log
+logging.file.max-size=1MB
+logging.file.total-size-cap=10MB
+logging.file.max-history=30
+logging.file.clean-history-on-start=true
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d [%thread] %-5level %-50logger{40} - %msg%n</pattern>
+        </encoder>
+    </appender>
+     
+    <appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>MyApp.log</file>
+        <encoder>
+            <pattern>%d [%thread] %-5level %-50logger{40} - %msg%n</pattern>
+        </encoder>
+         
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>MyApp-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>1MB</maxFileSize>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>10MB</totalSizeCap>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+    </appender>
+     
+    <root level="INFO">
+        <appender-ref ref="Console" />
+        <appender-ref ref="RollingFile" />
+    </root>
+</configuration>
+
+
+6)log monitoring tools 

@@ -1,0 +1,16 @@
+1)what is containter
+   container is class or container is area where we put all 
+   the content which needs to be responsive.
+   .container - 
+   .container-fluid 
+   
+--------------------------------------
+2)bootstrap grid system (flexbox)
+--------------------------------------
+3)tables
+4)forms
+5)alerts
+6)buttons and button groups
+7)model
+8)navigation bar 
+9)carasoul

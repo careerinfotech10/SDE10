@@ -1,0 +1,77 @@
+-------------------------------------------
+Spring Boot
+-------------------------------------------
+1)Spring boot Introduction
+    i) advantages and disadvantages
+	ii)project structure
+	iii)Multiple db configuration
+2)Starter and Main method internals
+3)Annotations 
+    i)@ComponentScanning
+	ii)SterioTypeAnnotations
+	      @Service
+		  @Repository
+		  @Controller
+		  @RestController
+     iii)@Configuration  and @Bean  using Swagger Configuration 
+	 iv)Autowiring
+	 v)@Qualifiers and runners  and Banner Printing
+----------------------------------------------------------------
+DATA JPA
+----------------------------------------------------------------
+1)JPA Introduction 
+    Crud Repository
+    JPA Repository 
+2)Custom Query 
+3)QueryBy Example
+4)JPA Pagination and Sorting
+5)JPA Connection Pooling
+6)Transaction management
+7)Composit Key 
+8)Generaters
+9)Auditing and soft delete
+-------------------------------------------------------------------
+Spring Rest API 
+-------------------------------------------------------------------
+1)	What is web services and types
+2) Rest Prinicple and Annotations 
+3) HTTP protocol  method architecture 
+4) Message converter 
+5) Pathveriable and query parameter 
+6) API Sorting and Pagination 
+7)RestClient
+8)Syncronus vs Ascronus RestClient
+9)Application file reading 
+10)HATEOS
+----------------------------------------------------------------------
+Microservices
+----------------------------------------------------------------------
+1)Microservices Introductions
+2)Service Registery and client
+3)Feign client 
+4)API Getway 
+5)Load Balancer
+6)Apache kafka
+7)Redis cach
+8)Circuit breaker
+9)JWT Token 
+------------------------------------------
+MISC
+------------------------------------------
+1)Git 
+2)JIRA
+3)AWS 
+4)Jenkins
+5)Sonar Qube
+-------------------------------------------
+SQL
+-------------------------------------------
+1)remove duplicate
+2)find nth  salary
+3)joins
+4)index
+
+
+	
+	
+	

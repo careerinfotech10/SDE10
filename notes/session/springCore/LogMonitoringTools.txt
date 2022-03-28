@@ -1,0 +1,9 @@
+Log monitoring
+-------------------------------
+1) there are several tools are used for log monitoring tools
+   1)splunk(Recomonded)
+   2)WinSCP
+   3)Putty
+   
+AWS Cloudwatch    
+   
