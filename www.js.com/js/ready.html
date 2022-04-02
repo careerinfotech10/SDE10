@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo">Fetch a file to change this text.</p>
+<script>
+
+let file = "https://jsonplaceholder.typicode.com/users"
+
+fetch (file)
+.then(x => x.text())
+.then(y => document.getElementById("demo").innerHTML = y);
+
+fetch()
+.then()
+.catch();
+
+</script>
+</body>
+</html>
