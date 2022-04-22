@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ceb1bf03-35a5-4022-854c-fc727f44891b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/CaculatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/DataTypeAndVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/First.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/LogicalORExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/LogicalOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/RelationalOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/TernaryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/UnaryOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/UnaryPreAndPostDiffernaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/VariableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/VariableScopeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/VariableScopeExampleWithPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/statement/jumping/ElseIfLadderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/statement/jumping/IfElseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/statement/jumping/SwitchCaseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/statement/jumping/SwitchCaseStringExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/statement/looping/DoWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/statement/looping/ForLoopExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JBPL10_FULL/src/basic/statement/looping/WhileLoopExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/JBPL10/src/basic/ConditionalStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/JBPL10/src/basic/LogicalOperatorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/logical/src/basic/ConditionalExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/logical/src/basic/ConditionalStatmentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/logical/src/basic/PrintPrimitiveRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/basic/EntryControlledLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/basic/JumpingStatmentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/basic/JumpingUsingElseIfLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/basic/MatrixAdditionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/basic/MultiDimensionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/basic/NestedLoopExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/basic/SimpleArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/basic/SingleDimensionUserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/basic/SwitchCaseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/methods/SimpleMethodExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/com/intervw/basics/MultipleConditions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/com/intervw/basics/Questions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/com/intervw/basics/Questions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/com/intervw/basics/TestJvmCRT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/com/intervw/j8/defaultnstatic/Left.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/com/intervw/j8/defaultnstatic/Right.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interview/src/com/intervw/j8/defaultnstatic/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/basics/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/interviews/abstractions/AbstractExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/interviews/abstractions/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/interviews/immutable/StringBufferMuttableToImmutable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/interviews/immutable/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/interviews/j8/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/interviews/jvm/HeapMemoryData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/interviews/jvm/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/methodreferance/MethodReferanceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/methodreferance/util/Pen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/overriding/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/overriding/Derived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/overriding/OverridingRulesClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/overriding/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/FindFirstAndFindAny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/FlattMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/LiminSkipExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/LimitAndSkipExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/MethodReferanceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/util/Calculatr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/util/Electric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/util/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/util/GelPen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/DataStructure/src/basic/arry/SingleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/DataStructure/src/basic/arry/SingleArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/JBPL08/JBPL08.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/JBPL08/JBPL08.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/exception/StudentNotFoundExcption.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/exception/StudentNotFoundExcption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/model/StudentModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/model/StudentModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/view/StudentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hibernate/project-demo/src/in/career/view/StudentView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interview/out/production/interview/com/intervw/j8/lambda/LambdaExperssionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../interview/out/production/interview/com/intervw/j8/lambda/LambdaExperssionExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interview/src/com/intervw/j8/lambda/LambdaExperssionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interview/src/com/intervw/j8/lambda/LambdaExperssionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/santosh/iv/j8/Users.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1dTfr1cdIIpPv3WDA9FH9tAUN0Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hibernate" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javaa8\src\com\santosh\data" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.santosh.streams.intermidiate" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.santosh.designpattern.behavior" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OverridingRulesClient">
+    <configuration name="AbstractExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.santosh.interviews.abstractions.AbstractExample" />
+      <module name="javaa8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.santosh.interviews.abstractions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapMemoryData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.santosh.interviews.jvm.HeapMemoryData" />
+      <module name="javaa8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.santosh.interviews.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OverridingRulesClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.santosh.overriding.OverridingRulesClient" />
+      <module name="javaa8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.santosh.overriding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBufferMuttableToImmutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.santosh.interviews.immutable.StringBufferMuttableToImmutable" />
+      <module name="javaa8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.santosh.interviews.immutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.santosh.interviews.immutable.Student" />
+      <module name="javaa8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.santosh.interviews.immutable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OverridingRulesClient" />
+        <item itemvalue="Application.AbstractExample" />
+        <item itemvalue="Application.StringBufferMuttableToImmutable" />
+        <item itemvalue="Application.HeapMemoryData" />
+        <item itemvalue="Application.Student" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ceb1bf03-35a5-4022-854c-fc727f44891b" name="Default Changelist" comment="" />
+      <created>1592454198908</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592454198908</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/santosh/streams/intermidiate/StreamsComparatoerExample.java</url>
+          <line>11</line>
+          <properties class="com.santosh.streams.StreamsComparatoerExample" method="sortStudentByName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/santosh/dates/ParseAndFormatterExample.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/santosh/dates/ParseAndFormatterExample.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/santosh/dates/ZoneDateTimeExample.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/santosh/dates/ZoneDateTimeExample.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/santosh/dates/ZoneDateTimeExample.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javaa8$ZoneDateTimeExample.ic" NAME="ZoneDateTimeExample Coverage Results" MODIFIED="1633609571926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.santosh.dates.*</FILTER>
+    </SUITE>
+  </component>
+</project>
