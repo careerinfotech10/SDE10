@@ -13,6 +13,13 @@ public class MethodReferanceExample {
 
     Pen pen=()-> System.out.println("this is default pen method msgs ");
 
+
+
+//    WorkInter m=new AddressNew()::show;
+
+    WorkInter k=AddressNew::new;
+//    m.taskDo(5,5);
+
 //    MethodReferanceExample mr=new MethodReferanceExample();
 
     //instance referance
