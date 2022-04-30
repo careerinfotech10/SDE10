@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceb1bf03-35a5-4022-854c-fc727f44891b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/santosh/streams/pract/strms/intermidiate/SuppliersData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../notes/pdf/java/~$-JAVA 8.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaa8/com/santosh/streams/intermidiate/MapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaa8/com/santosh/streams/intermidiate/MapExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/santosh/functionalinterface/practfunctions/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/MapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/santosh/streams/intermidiate/MapExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notes/pdf/java/02-JAVA 8.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../notes/pdf/java/02-JAVA 8.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +65,13 @@
       <recent name="com.santosh.designpattern.behavior" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodReferance">
-    <configuration name="FunctionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.santosh.functionalinterface.FunctionExample" />
+  <component name="RunManager" selected="Application.FilterExample">
+    <configuration name="FilterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.santosh.streams.pract.strms.intermidiate.FilterExample" />
       <module name="javaa8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.santosh.functionalinterface.*" />
+          <option name="PATTERN" value="com.santosh.streams.pract.strms.intermidiate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilterExample" />
         <item itemvalue="Application.MethodReferance" />
         <item itemvalue="Application.com.santosh.functionalinterface.practfunctions.ConsumerExample" />
         <item itemvalue="Application.com.santosh.functionalinterface.practfunctions.FunctionsExample1" />
         <item itemvalue="Application.MethodReferanceExample" />
-        <item itemvalue="Application.FunctionExample" />
       </list>
     </recent_temporary>
   </component>
