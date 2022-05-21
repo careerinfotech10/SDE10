@@ -1,0 +1,38 @@
+<p>twybinding works!</p>
+
+
+
+
+<h1>
+html to ts 
+----------------------------
+</h1>
+
+<input type="text" [(ngModel)]="name">
+
+
+<h1>
+=========ts to html============================
+</h1>
+<h1>{{name}}</h1>
+
+<p *ngFor="let f of fruits">{{f}}</p>
+
+
+<p>switch case</p>
+
+<div [ngSwitch]="choice">expression
+	
+	<div *ngSwitchCase="1">case1</div>
+	<div *ngSwitchCase="2">case2</div>
+	<div *ngSwitchCase="3">case3</div>
+	<div *ngSwitchCase="4">case4</div>
+    <div *ngSwitchDefault>fine i m with it</div>
+	
+	</div>
+
+    <p>ng Style</p>
+    <div [ngStyle]="{'background-color':'red'}">nice to have</div>
+
+    <p>ng class</p>
+    <div class="j1">learning is good</div>

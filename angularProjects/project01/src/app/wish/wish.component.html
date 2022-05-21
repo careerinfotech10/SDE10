@@ -1,0 +1,14 @@
+<h1>welcome to run wish components</h1>
+
+<input type="text" [(ngModel)]="username">
+
+<h1>{{username}}</h1>
+
+<div *ngIf="result;else msgs">you are passed</div>
+
+
+
+<ng-template #msgs>
+
+    <div> your are failed </div>
+</ng-template>
