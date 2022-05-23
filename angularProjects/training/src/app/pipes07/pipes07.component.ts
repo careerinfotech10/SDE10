@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Pipes07Component implements OnInit {
 
+  name="santosh";
+  lastname="turerao";
+
   constructor() { }
 
   ngOnInit(): void {
