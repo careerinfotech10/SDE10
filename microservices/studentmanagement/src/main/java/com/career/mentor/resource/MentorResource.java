@@ -1,7 +1,10 @@
 package com.career.mentor.resource;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -31,12 +34,17 @@ public class MentorResource {
 	}
 	
 	@GetMapping("/")
-	public ResponseEntity<MentorDto> getAllMentors(){
+	public ResponseEntity<List<MentorDto>> getAllMentors(){
 		return mentorService.getAllMentors();
 	}
 	
 	@GetMapping("/{mentorId}")
 	public ResponseEntity<MentorDto> getMentorById(@PathVariable Long mentorId){
 		return mentorService.getMentorById(mentorId);
+	}
+	
+	@DeleteMapping("/{mentorId}")
+	public ResponseEntity<String> deleteMentorById(@PathVariable Long mentorId){
+		return mentorService.deleteMentorById(mentorId);
 	}
 }
