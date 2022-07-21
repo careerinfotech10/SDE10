@@ -1,8 +1,6 @@
 package com.career.students.entity;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,7 +9,6 @@ import javax.persistence.Id;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.springframework.data.annotation.CreatedDate;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -29,7 +26,6 @@ public class Student {
 	private String lastName;
 	private String email;
 	private String mobile;
-	
 
 	private boolean isContractSent = true;
 	@CreationTimestamp
@@ -40,6 +36,8 @@ public class Student {
 	private String education;
 	private String passingYear;
 	private String mentor;
+	private boolean isMentorOpted=false;
+	private Long incomeId;
 	private Long basePackage;
 
 }

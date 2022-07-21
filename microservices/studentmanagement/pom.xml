@@ -9,7 +9,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ashokit</groupId>
-	<artifactId>user-management</artifactId>
+	<artifactId>studentmanagment</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 	<name>student-management</name>
