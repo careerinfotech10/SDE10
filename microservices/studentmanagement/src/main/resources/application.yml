@@ -5,10 +5,10 @@ spring:
     console:
       enabled: true
   datasource:
-    username: sa
-    password: null
-    url: jdbc:h2:mem:testdb
-    driver-class-name: org.h2.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/students
+    driver-class-name: org.postgresql.Driver
   jpa:
     properties:
       hibernate:

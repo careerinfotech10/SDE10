@@ -24,4 +24,9 @@ public class StudentService {
 		return studentRepo.findById(id).orElse(new Student());
 	}
 
+	public List<Student> saveStuents(List<Student> students) {
+		// TODO Auto-generated method stub
+		return studentRepo.saveAll(students);
+	}
+
 }

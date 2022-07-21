@@ -20,17 +20,23 @@ public class StudentResource {
 	@Autowired
 	private StudentService studentService;
 
+	@PostMapping("/students")
+	public List<Student> saveStudents(@RequestBody List<Student> students) {
+		return studentService.saveStuents(students);
+	}
+
 	@PostMapping
 	public Student createStudent(@RequestBody Student student) {
 		return studentService.createStudent(student);
 	}
+
 	@GetMapping()
-	public List<Student> getStudents(){
+	public List<Student> getStudents() {
 		return studentService.getStudents();
 	}
 
 	@GetMapping("id/{id}")
-	public Student getStudentById(@PathVariable("id")Long id) {
+	public Student getStudentById(@PathVariable("id") Long id) {
 		return studentService.getStuentById(id);
 	}
 }

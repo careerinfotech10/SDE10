@@ -1,5 +1,6 @@
 package com.career.students.entity;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Date;
 
@@ -27,7 +28,9 @@ public class Student {
 	private String firstName;
 	private String lastName;
 	private String email;
-	private Long basePackage;
+	private String mobile;
+	
+
 	private boolean isContractSent = true;
 	@CreationTimestamp
 	private LocalDateTime createdOn = LocalDateTime.now();
@@ -35,6 +38,8 @@ public class Student {
 	private LocalDateTime updateOn = LocalDateTime.now();
 	private boolean active = true;
 	private String education;
-	private Date passingYear;
+	private String passingYear;
+	private String mentor;
+	private Long basePackage;
 
 }
