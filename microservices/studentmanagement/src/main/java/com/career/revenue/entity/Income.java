@@ -23,13 +23,14 @@ public class Income {
 	private Long studentId;
 	private Long amount;
 	private Long categoryId;
+	private String transactionId;
 	
 	// audit columns
-	private LocalDateTime createdOn;
-	private LocalDateTime updatedOn;
+	private LocalDateTime createdOn=LocalDateTime.now();
+	private LocalDateTime updatedOn=LocalDateTime.now();
 	private String createdBy;
 	private String updatedBy;
-	private boolean active;
+	private boolean active=true;
 
 
 }
