@@ -12,8 +12,8 @@
 	<artifactId>studentmanagment</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
-	<name>student-management</name>
-	<description>student management</description>
+	<name>studentmanagment</name>
+	<description>studentmanagment</description>
 
 	<properties>
 		<java.version>1.8</java.version>
