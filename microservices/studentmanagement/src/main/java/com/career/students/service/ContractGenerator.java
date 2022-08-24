@@ -22,7 +22,7 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 
 @Service
-public class PDFGeneratorService {
+public class ContractGenerator {
 
 	List<String> successRecipent = new ArrayList<String>();
 	List<String> failedRecipent = new ArrayList<String>();
@@ -32,11 +32,14 @@ public class PDFGeneratorService {
 
 	public Map<String, List<String>> prepareContract() {
 		Map<String, List<String>> mapOfStudents = new HashMap<String, List<String>>();
-		List<Student> foundStudents = studentRepo.findAllEmailByIsContractSentFalse();
+		List<Student> foundStudents = studentRepo.findAllEmailByformalContractGeneratedFalse();
+		boolean isContractSent = true;
 		for (Student student : foundStudents) {
 			boolean generateContract = generateContract("contracts\\", student);
 			if (generateContract) {
 				successRecipent.add(student.getFirstName() + student.getLastName());
+				student.setFormalContractGenerated(isContractSent);
+				studentRepo.saveAndFlush(student);
 			} else {
 				failedRecipent.add(student.getFirstName() + student.getLastName());
 			}
@@ -56,8 +59,9 @@ public class PDFGeneratorService {
 			String strDate = "Date";
 			String fileName = student.getFirstName() + student.getLastName() + ".pdf";
 			String fullName = student.getFirstName() + " " + student.getLastName();
-			String owner = "Mr Milind Turerao";
+			String owner = " Milind Turerao";
 			Double percent = 0.20;
+			Long basePackage = student.getBasePackage();
 			Double baseFees = (student.getBasePackage() * percent);
 			Double gst = 0.18;
 			int months = 6;
@@ -97,6 +101,7 @@ public class PDFGeneratorService {
 				document.add(new Paragraph(" "));
 
 				document.add(new Paragraph("By this agreement, it is agreed that a payment of rupees " + monthlyEmi
+						+ " as of base package of " + basePackage
 						+ " will be surrendered to the Lender every month until the total of the payment required, which is of "
 						+ totalAmount + " has been delivered. The payment plan will take the following form:"));
 				document.add(new Paragraph(" "));
@@ -109,7 +114,7 @@ public class PDFGeneratorService {
 				for (int i = 1; i <= 6; i++) {
 					String srNo = Integer.toString(i);
 					table.addCell(srNo);
-					table.addCell("RS- " + monthlyEmi + " -/");
+					table.addCell("Rs. " + monthlyEmi + " /-");
 					table.addCell("");
 					table.addCell("");
 				}
@@ -118,7 +123,7 @@ public class PDFGeneratorService {
 				document.add(new Paragraph(" "));
 
 				document.add(new Paragraph(
-						"provided cheques  we will desposit only when student start getting salary from IT job. "));
+						"provided cheques  we will deposit only when student start getting salary from IT job. "));
 				document.add(new Paragraph(" "));
 
 				document.add(new Paragraph(
@@ -138,9 +143,9 @@ public class PDFGeneratorService {
 						+ "                                                                       " + strDate
 						+ "            "));
 				document.addCreationDate();
-				document.addAuthor("Ashok IT");
-				document.addTitle("How to create PDF document in Java");
-				document.addCreator("Thanks to iText, writing into PDF is easy");
+				document.addAuthor("Career Infotech");
+				document.addTitle(student.getFirstName() + " " + student.getLastName());
+				document.addCreator("Career Infotech");
 
 //			document.add(new Paragraph(new Date(new java.util.Date().getTime()).toString()));
 				// close the document

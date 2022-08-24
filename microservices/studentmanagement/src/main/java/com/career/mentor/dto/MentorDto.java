@@ -12,6 +12,6 @@ public class MentorDto {
 	private Long mentorId;
 	private String firstName;
 	private String lastName;
-	private Integer noOfStudents;
+	private Long studentId;
 
 }

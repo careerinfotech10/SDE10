@@ -1,4 +1,4 @@
-package com.career.students.resource;
+package com.career.document.resource;
 
 import java.util.List;
 import java.util.Map;
@@ -8,15 +8,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.career.students.service.PDFGeneratorService;
-import com.career.students.service.StudentService;
+import com.career.students.service.ContractGenerator;
 
 @RestController
-@RequestMapping("/report")
-public class ReportGeneratorResource {
+@RequestMapping("/document")
+public class DocumentGeneratorResource {
 	
 	@Autowired
-	PDFGeneratorService generatorService;
+	ContractGenerator generatorService;
 	@GetMapping
 	public Map<String, List<String>> generateReport() {
 	return 	generatorService.prepareContract();

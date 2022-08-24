@@ -19,8 +19,8 @@ public class MentorService {
 	@Autowired
 	private MentorRepo mentorRepo;
 	
-	@Autowired(required = false)
-	private ModelMapper mapper;
+	
+	private ModelMapper mapper=new ModelMapper();
 
 	public ResponseEntity<MentorDto> saveMentor(MentorDto mentorDto) {
 		Mentor entity = mapper.map(mentorDto, Mentor.class);

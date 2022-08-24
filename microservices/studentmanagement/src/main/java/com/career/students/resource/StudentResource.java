@@ -1,6 +1,7 @@
 package com.career.students.resource;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,8 +22,8 @@ public class StudentResource {
 	private StudentService studentService;
 
 	@PostMapping("/students")
-	public List<Student> saveStudents(@RequestBody List<Student> students) {
-		return studentService.saveStuents(students);
+	public Map<String, List<String>> saveStudents(@RequestBody List<Student> students) {
+		return studentService.saveUniqueStudent(students);
 	}
 
 	@PostMapping

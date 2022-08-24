@@ -1,17 +1,16 @@
 package com.career.students.service;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Service;
 
@@ -21,6 +20,7 @@ import com.career.props.AppProperties;
 import com.career.students.entity.Student;
 import com.career.students.repo.StudentRepo;
 import com.career.util.EmailUtils;
+import com.itextpdf.text.log.SysoCounter;
 
 @Service
 public class MailerServer {
@@ -53,30 +53,29 @@ public class MailerServer {
 	ResourceLoader resourceLoader;
 
 	public Map<String, List<String>> triggerEmail(String subject) throws UserAppException {
+
 		List<Student> toEmails = getToEmails();
-		for (Student email : toEmails) {
-//			boolean sendEmail = sendEmail(email.getEmail(), subject, readUnlockAccEmailBody(email));
 
-			Resource resource = resourceLoader.getResource("classpath:docs.pdf");
-			File file = null;
-			try {
-				file = resource.getFile();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		for (Student student : toEmails) {
+			String fileExtension = ".pdf";
+			String fileUrl = "contracts\\" + student.getFirstName() + student.getLastName() + fileExtension;
+			String fileName = student.getFirstName() + student.getLastName() + fileExtension;
+			boolean sendEmail = emailUtils.sendMailWithAttachment(student.getEmail(), subject,
+					readContractEmailBody(student), fileUrl, fileName);
 
-			boolean sendEmail = emailUtils.sendEmail(email.getEmail(), subject, readUnlockAccEmailBody(email));
-			// sendEmailWithAttachments(email.getEmail(), subject,
-			// readUnlockAccEmailBody(email), email.getFirstName()+email.getLastName(),
-			// file);
+			// .sendEmailWithAttachment(student.getEmail(), subject,
+			// readContractEmailBody(student), fileName,
+			// fileToAttach);
+			// (email.getEmail(), subject, readUnlockAccEmailBody(email));
 
 			if (sendEmail) {
-				successRecipent.add(email.getEmail());
-				email.setContractSent(true);
-				studentRepo.save(email);
+				successRecipent.add(student.getEmail());
+				student.setContractSent(true);
+				studentRepo.save(student);
+				System.out.println("email success : "+student.getEmail());
 			} else {
-				failedRecipent.add(email.getEmail());
+				failedRecipent.add(student.getEmail());
+				System.out.println("email failed : "+student.getEmail());
 			}
 		}
 		success.put("success", successRecipent);
@@ -86,7 +85,7 @@ public class MailerServer {
 
 	}
 
-	private String readUnlockAccEmailBody(Student entity) throws UserAppException {
+	private String readContractEmailBody(Student entity) throws UserAppException {
 		StringBuilder sb = new StringBuilder(AppConstants.EMPTY_STR);
 		String mailBody = AppConstants.EMPTY_STR;
 
@@ -103,7 +102,6 @@ public class MailerServer {
 				line = br.readLine();
 			}
 			br.close();
-
 //			String decryptedPwd = PwdUtils.decryptMsg(entity.getPazzword());
 
 			mailBody = sb.toString();

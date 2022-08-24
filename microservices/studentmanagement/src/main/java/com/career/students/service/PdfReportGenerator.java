@@ -88,7 +88,7 @@ public class PdfReportGenerator {
 			document.add(table);
 			// Add meta data information to PDF file
 			document.addCreationDate();
-			document.addAuthor("Ashok IT");
+			document.addAuthor("Career Infotech");
 			document.addTitle("How to create PDF document in Java");
 			document.addCreator("Thanks to iText, writing into PDF is easy");
 			document.add(new Paragraph(new Date(new java.util.Date().getTime()).toString()));

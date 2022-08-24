@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 public class Income {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long incomeId;
@@ -24,13 +24,13 @@ public class Income {
 	private Long amount;
 	private Long categoryId;
 	private String transactionId;
+	private String courierId;
 	
 	// audit columns
-	private LocalDateTime createdOn=LocalDateTime.now();
-	private LocalDateTime updatedOn=LocalDateTime.now();
+	private LocalDateTime createdOn = LocalDateTime.now();
+	private LocalDateTime updatedOn = LocalDateTime.now();
 	private String createdBy;
 	private String updatedBy;
-	private boolean active=true;
-
+	private boolean active = true;
 
 }

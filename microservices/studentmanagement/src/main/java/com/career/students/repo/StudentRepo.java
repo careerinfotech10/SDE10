@@ -9,5 +9,9 @@ import com.career.students.entity.Student;
 public interface StudentRepo extends JpaRepository<Student, Long> {
 
 	List<Student> findAllEmailByIsContractSentFalse();
+	List<Student> findAllEmailByformalContractGeneratedFalse();
+
+
+	boolean existsByEmail(String email);
 
 }

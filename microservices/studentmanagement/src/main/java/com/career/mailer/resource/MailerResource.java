@@ -1,4 +1,4 @@
-package com.career.students.resource;
+package com.career.mailer.resource;
 
 import java.util.List;
 import java.util.Map;
