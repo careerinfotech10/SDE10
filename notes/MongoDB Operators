@@ -1,0 +1,7 @@
+MongoDB Operators
+1.Query - comparison, logical, element, evaluation, Geospatial, array, bitwise, and comment
+2.MongoDB Projection Operator
+3.MongoDB Update Operator
+4.Aggregation Pipeline Operators
+5.MongoDB limit() Method
+6.MongoDB sort() method

@@ -1,0 +1,29 @@
+=========================================================
+>use devdb  
+db.dropDatabase()  
+
+db.createCollection(name, options)   
+
+db.COLLECTION_NAME.drop()  
+
+
+====================================================================
+
+>db.COLLECTION_NAME.insert(document)  
+
+db.dev.insert(  
+   {  
+     course: "java" 
+)  
+================================================================
+db.COLLECTION_NAME.update(SELECTIOIN_CRITERIA, UPDATED_DATA)  
+================================================================
+>db.dev.update({'course':'java'},{$set:{'course':'android'}})  
+
+>db.dev.find()  
+
+=====================================================================
+db.collection_name.remove (DELETION_CRITERIA)  
+db.dev.remove( { type : "programming language" }, 1 )  
+=====================================================================
+db.COLLECTION_NAME.find()   

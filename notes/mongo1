@@ -1,0 +1,4 @@
+>db.dev.update
+(
+{'course':'java'},{$set:{'course':'android'}}
+)  

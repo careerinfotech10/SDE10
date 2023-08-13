@@ -1,2 +1,4 @@
-package core;public class CompratorVsComprable {
+package core;
+
+public class CompratorVsComprable {
 }
