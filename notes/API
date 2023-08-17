@@ -1,0 +1,18 @@
+API
+==========================================================
+1.REST is an acronym for REpresentational State Transfer.
+architectural style for distributed hypermedia systems.
+Roy Fielding first presented it in 2000.
+
+
+2.Principles of REST
+
+	1.Uniform Interface
+	2.Client-Server
+	3.Stateless
+	4.Cacheable
+	5.Layered System
+3.HTTP Protocol
+4.HTTP Methods
+5.HTTP Statuses 
+	
